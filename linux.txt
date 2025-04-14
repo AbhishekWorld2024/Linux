@@ -1,0 +1,36 @@
+ls -- To see the list of folders
+mkdir abhi-- To create the folder
+chmod 777* -- To give access to do things with folder
+touch 1.txt -- To create a file in the folder
+vi File_name -- creates and edit the file
+nano 1.txt -- TO write something in the file within the linux
+cat 1.txt -- Open the file in linux or print the file.
+nano 2.txt -- Also create the file and we can add something in linux
+touch 3.txt 4.txt 5.txt -- we can create a multiple files using this command without an error.
+rm 1.txt -- To remove the file
+rm * -- To remove all the files in folder.
+rm -r -- to remove a folder.
+In a folder we can create a file and folder as well.
+ls -l -- To see the list of files and folders in what time they are created.
+cd .. -- To go back to 1 folder.
+cd ../.. -- Go back to 2 folder.
+
+mkdir test1 -- creates a folder
+cd test1 -- moves to that folder.
+We can do these 2 command at a time by -- mkdir test1 && cd test1
+rmdir test3 -- To remove the folder in linux
+Copy a file into a folder -- cp 1.txt test3/
+move the file from 1 folder to another -- mv 2.txt test3/
+mv 1.txt mynewfile.txt -- To rename the file 
+ls -ltr -- details about the folders and files
+top -- to manage monitor memory the cpu
+head -5 file_name -- To see the content of file but only top 5 lines
+tail -5 file_name -- To see the content of file but bottom 5 lines.
+sort file_name --o sort a file in terms of ABCD..
+sort -r file_name --reverse sort 
+sort file_name | uniq -- unique char in the file
+grep "kore" file_name -- To search a content in a file.
+egrep word1|word2 file_name -- To search for a multiple words in the file.
+
+Enter new UNIX username: abhishek_arugonda
+
